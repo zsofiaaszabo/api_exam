@@ -10,7 +10,13 @@ const Hotel = (props) => {
   return (
     <div>
       <h2>{props.name}</h2>
-      {!isExpanded ? null : <div>{props.details}</div>}
+      {!isExpanded ? null : (
+        <div>
+          {props.name}
+          <br />
+          {props.city} {props.stars}
+        </div>
+      )}
       {
         <button onClick={handleToggle}>
           {isExpanded ? "Show less" : "Show more"}

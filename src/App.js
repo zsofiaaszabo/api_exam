@@ -23,7 +23,7 @@ const App = () => {
   useEffect(() => {
     setInterval(function () {
       setSubscription(true);
-    }, 10000);
+    }, 20000);
   }, [loadSubscription]);
 
   return (
@@ -32,7 +32,12 @@ const App = () => {
       {load === true ? (
         data !== undefined ? (
           data.map((item) => (
-            <Hotel key={item.name} name={item.name} details={item.details} />
+            <Hotel
+              key={item.name}
+              name={item.name}
+              stars={item.stars}
+              city={item.city}
+            />
           ))
         ) : (
           <div>Oops, something happened</div>

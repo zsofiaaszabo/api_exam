@@ -1,5 +1,5 @@
 import React from "react";
 
-const LoadingMask = () => <div>Loading</div>;
+const LoadingMask = () => <div>Page is loading....</div>;
 
 export default LoadingMask;
