@@ -57,7 +57,7 @@ const Subscription = () => {
           ) : response === true && response !== undefined ? (
             <div>Subscribed</div>
           ) : (
-            <div>Oops, something happened</div>
+            <div>Something went wrong!</div>
           )}
         </div>
       ) : null}

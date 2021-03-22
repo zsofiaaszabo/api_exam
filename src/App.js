@@ -23,7 +23,7 @@ const App = () => {
   useEffect(() => {
     setInterval(function () {
       setSubscription(true);
-    }, 20000);
+    }, 200);
   }, [loadSubscription]);
 
   return (
