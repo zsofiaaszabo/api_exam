@@ -40,7 +40,7 @@ const App = () => {
             />
           ))
         ) : (
-          <div>Oops, something happened</div>
+          <div>Something went wrong! :(</div>
         )
       ) : (
         <LoadingMask />
