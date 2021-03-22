@@ -14,7 +14,8 @@ const Hotel = (props) => {
         <div>
           {props.name}
           <br />
-          {props.city} {props.stars}
+          {props.city}
+          <br /> {props.stars}
         </div>
       )}
       {
