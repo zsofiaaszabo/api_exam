@@ -23,7 +23,7 @@ const Subscription = () => {
     if (response === true) {
       setInterval(function () {
         setFormEnabled(false);
-      }, 5000);
+      }, 3000);
     }
   }, [response]);
 
